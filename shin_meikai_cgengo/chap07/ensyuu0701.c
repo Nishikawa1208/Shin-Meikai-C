@@ -16,5 +16,5 @@ int main(void)
     printf("sizeof(n+2)         = %zu\n", sizeof(n+2));
     printf("sizeof(n+2.0)       = %zu\n", sizeof(n+2.0));
 
-    return 0;
+    return 0;//草
 }
