@@ -18,7 +18,7 @@ void handle_client(int client_socket) {
         "HTTP/1.0 200 OK\r\n"
         "Content-Type: text/html\r\n"
         "\r\n"
-        "<html><body><h1>Hello from C Web Server!</h1></body></html>\r\n";
+        "<html><body><h1>Welcome to SAKURAI's Web Server!</h1></body></html>\r\n";
 
     write(client_socket, response, strlen(response));
     close(client_socket);
